@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital@1&display=swap');
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.header, .main, .footer {
+    width: 100%;
+    max-width: 1000px;
+}
+.main {
+    height: 500px;
+}
+.container {
+    width: 100%;
+}
+.header-inner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: black;
+}
+.main-inner {
+    display: flex;
+    
+}
+.footer-inner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: black;
+}
+h1 {
+    color: white;
+}
+.main-left {
+    width: 30%;
+    background-color: yellow;
+}
+.main-right {
+    width: 70%;
+    background-color: sienna;
+}
+img {
+    border-top-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    border-top-right-radius: 25px;
+    border-bottom-left-radius: 5px;
+    width: 350px;
+    height: 200px;
+    border: solid 5px black;
+}
+.img {
+    margin: 15px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.text {
+    margin: 15px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+h2 {
+    color: black;
+}
+li:hover {
+    color: rgb(241, 18, 18);
+    width: 10px;
+}
+h1:hover {
+    color: coral;
+}
+h2:hover {
+    color: cyan;
+}
+.blocks {
+    margin: 50px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.mini-block {
+    border: solid 2px white;
+    background-color: rgb(0, 0, 0);
+    width: 130px;
+    height: 100px;
+}
+.mini-block:hover {
+    border: solid 5px red;
+    background-color: rgb(54, 132, 221);
+
+}
+.big {
+    color: cyan;
+}

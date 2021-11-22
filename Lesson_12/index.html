@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./stile/stile.css">
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+    <script type="text/javascript">
+        (function() {
+            // https://dashboard.emailjs.com/admin/integration
+            emailjs.init('user_1hbbCoS0oARytlABWtheJ');
+        })();
+    </script>
+    <script type="text/javascript">
+        window.onload = function() {
+            document.getElementById('contact-form').addEventListener('submit', function(event) {
+                event.preventDefault();
+                // generate a five digit number for the contact_number variable
+                this.contact_number.value = Math.random() * 100000 | 0;
+                // these IDs from the previous steps
+                emailjs.sendForm('service_ahbczok', 'template_6bympva', this)
+                    .then(function() {
+                        console.log('SUCCESS!');
+                    }, function(error) {
+                        console.log('FAILED...', error);
+                    });
+            });
+        }
+    </script>
+</head>
+<body>
+    <div class="triangle"></div>
+    <div class="container">
+        <div class="container-left">
+            <div class="left-inner">
+                <h1>Contact Us</h1>
+                <div class="container-left-logo">
+                    <img class="left-logo" src="../Lesson_9/img/FA icon@1X.png" alt="">
+                    <img class="left-logo" src="../Lesson_9/img/FA icon@1X (1).png" alt="">
+                    <img class="left-logo" src="../Lesson_9/img/FA icon@1X (2).png" alt="">
+                </div>
+                <form id="contact-form">
+                    <input type="hidden" name="contact_number">
+                    <h3>or use our contact form below</h3>
+                    <label for="">Name</label>
+                    <input type="text" name="name">
+                    <label for="">Email</label>
+                    <input type="email" name="reply_to">
+                    <label for="">Phone</label>
+                    <input type="tel" name="phone">
+                    <h3>Type your message here:</h3>
+                    <label for="">Message</label>
+                    <textarea name="message" id="" cols="30" rows="10"></textarea>
+                    <h3>Need additional help?</h3>                    
+                    <input type="submit" value="Send">
+                </form>
+                <div class="Contact-me">
+
+                </div>
+            </div>
+        </div>
+        <div class="container-right">
+            <div class="right-inner">
+                <div>
+                    <img class="Android" src="./img/85f7b1115e68f586acdd82a0ca44668905fca258.jpg" alt="">
+                </div>
+                <h1>Hello, User!</h1>
+                <h3>If you want to know more info about project than</h3>
+            </div>
+        </div>
+    </div>
+    <div class="cicles"></div>
+</body>
+</html>

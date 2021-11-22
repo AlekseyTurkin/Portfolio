@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital@1&display=swap');
+*{box-sizing: border-box;}
+body {
+    display: flex;
+    justify-content: space-around;
+}
+.container {
+    width: 100%;
+    background: linear-gradient( 45deg, #EECFBA, #C5DDE8);
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+}
+@media (max-width: 700px) {
+    .card {
+        width: 80%;
+    }
+}
+.btn-2 {
+    width: 100%;
+    background-color: yellow;
+    color: black;
+}
+h4 {
+    color: gray;
+    font-size: 10px;
+}
+
+

@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital@1&display=swap');
+
+.container {
+    width: 100%;
+    background: linear-gradient( 45deg, #EECFBA, #C5DDE8);
+    text-align: center;
+    display: flex;
+    height: 100%;
+}
+.left-body {
+    width: 10%;
+}
+.right-body {
+    width: 10%;
+}
+.main {
+    background: linear-gradient( 45deg, rgb(153, 217, 236), rgb(92, 230, 184), rgb(72, 235, 107));
+    width: 80%;
+    border: 2px solid black;
+    border-radius: 7px;
+    margin-top: 150px;
+    margin-bottom: 70px;
+    box-shadow: 10px 10px 25px 3px rgba(34, 60, 80, 0.29);
+    height: 500px;
+    text-align: center;
+}
+.main-top{
+    width: 30%;
+    background-color: white;
+    box-shadow: 10px 10px 25px 3px rgba(34, 60, 80, 0.29);
+    border-radius: 10px;
+    margin-left: 520px;
+    height: 50px;
+}
+a {
+    text-decoration: none;
+}
+nav {
+    font-family: monospace;
+}
+ul {
+    background: linear-gradient();
+    list-style: none;
+    margin: 0;
+    padding-left: 0;
+}
+li {
+    width: 100px;
+    color: rgb(0, 0, 0);
+    background: rgb(255, 255, 255);
+    display: block;
+    float: left;
+    padding: 1rem;
+    position: relative;
+    text-decoration: none;
+    transition-duration: 0.5s;
+}
+li a {
+    color: rgb(0, 0, 0);
+}
+li:hover {
+    background-color: red;
+    cursor: pointer;
+}
+ul li ul{
+    background: rgb(255, 255, 255);
+    visibility: hidden;
+    opacity: 0;
+    min-width: 5rem;
+    position: absolute;
+    transition: all 0.5rem;
+    left: 0;
+    display: none;
+}
+ul li:hover > ul, ul li:hover {
+    visibility: visible;
+    opacity: 1;
+    display: block;
+}
+ul li ul li {
+    clear: both;
+    width: 100px;
+}
+ul li ul li ul {
+    background: rgb(255, 255, 255);
+    visibility: hidden;
+    opacity: 0;
+    min-width: 5rem;
+    position: absolute;
+    transition: all 0.5rem;
+    left: 0;
+    display: none;
+}
+.dropleft {
+    position: absolute;
+    bottom: -94px;
+    left: 132px;
+}
+.dropleft-work {
+    position: absolute;
+    bottom: -141px;
+    left: 132px;
+}
+.dropleft-work-2 {
+    position: absolute;
+    bottom: 0px;
+    left: 132px;
+}
+.dropleft-class {
+    position: absolute;
+    bottom: -47px;
+    left: 132px;
+}
+.dropleft-class-2 {
+    position: absolute;
+    top: 0px;
+    left: 132px;
+}
+nav {
+    margin-left: 10px;
+    margin-top: 20px;
+}
+.dropdown {
+    margin-top: 15px;
+}
+.main-bottom {
+    display: flex;
+    margin-top: 50px;
+    margin-left: 50px;
+}
+h2 {
+    font-size: 30px;
+}

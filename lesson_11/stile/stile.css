@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital@1&display=swap');
+
+.japan {
+    margin: 200px;
+    height: 500px;
+    width: 750px;
+    background-color: white;
+    border: 2px solid black;
+}
+.circle {
+    width: 250px;
+    height: 250px;
+    border-radius: 100%;
+    background-color: red;
+    position: relative;
+    top: 110px;
+    left: 240px;
+}
+.Instagram {
+    margin: 200px;
+    width: 500px;
+    height: 500px;
+    border-radius: 20%;
+    background-color: red;
+    border: 3px solid black;
+}
+.border {
+    width: 400px;
+    height: 400px; 
+    border: 30px solid white;
+    border-radius: 20%;
+    position: relative;
+    top: 15px;
+    left: 15px;
+}
+.Instagram-circle {
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+    border: 30px solid white;
+    position: relative;
+    top: 10px;
+    left: 70px;
+
+}
+.Instagram-circle-2 {
+    width: 50px;
+    height: 50px;
+    background-color: white;
+    border-radius: 100%;
+    position: relative;
+    top: 10px;
+    left: 300px;
+}
+.triangle-with-shadow {
+    width: 0;
+    height: 0;
+    border-left: 25px solid transparent;
+    border-right: 25px solid transparent;
+    border-bottom: 50px solid #3e3f42;
+    position: relative;
+    top: 51px;
+    left: 25px;
+}
+.triangle {
+    width: 0;
+    height: 0;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-bottom: 100px solid #cedaa4;
+}
+.Pensil {
+    margin: 200px;
+}
+.body-pensil {
+    display: flex;
+}
+.parallelogram-1 {
+    border-top-left-radius: 21%;
+    width: 30px;
+    height: 300px;
+    transform: skewY(30deg);
+    background-color: rgb(151, 57, 40);
+    position: relative;
+    bottom: 8px;
+}
+.parallelogram-2 {
+    width: 40px;
+    height: 300px;
+    background-color: tomato;
+    position: relative;
+    left: 0px;
+    bottom: 0px;
+}
+.parallelogram-3 {
+    border-top-right-radius: 21%;
+    width: 30px;
+    height: 300px;
+    transform: skewY(-30deg);
+    background-color: rgb(255, 127, 104);
+    position: relative;
+    bottom: 8px;
+}

@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital@1&display=swap');
+*{box-sizing: border-box;}
+body {
+    text-align: center;
+}
+.container {
+    text-align: center;
+    width: 100%;
+    background: linear-gradient( 45deg, #EECFBA, #C5DDE8);
+    display: flex ;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+h1 {
+    color: white;
+    font-size: 20px;
+}
+h2 {
+    font-size: 30px;
+    background: linear-gradient( -45deg, rgb(121, 217, 235), rgb(233, 111, 233));
+}
+h2:active {
+    color: tomato;
+    background: linear-gradient( 45deg, rgb(121, 217, 235), rgb(233, 111, 233));
+}
+.Apple {
+    border-radius: 5%;
+    margin-top: 10px;
+    width: 70px;
+    height: 70px;
+    border: 1px solid orange;
+}
+.Tree {
+    border-radius: 5%;
+    margin-top: 10px;
+    width: 70px;
+    height: 70px;
+    border: 2px solid olivedrab;
+}
+.Car {
+    border-radius: 5%;
+    margin-top: 10px;
+    width: 70px;
+    height: 70px;
+    border: 2px solid blueviolet;
+}
+.House {
+    border-radius: 5%;
+    margin-top: 10px;
+    width: 70px;
+    height: 70px;
+    border: 2px solid brown;
+}
+.card {
+    border-radius: 2%;
+    margin-top: 20px;
+    width: 24%;
+    text-align: center;
+    font-size: 25px;
+    border: 1px solid black;
+    height: 150px;
+    display: flex;
+    justify-content: space-around;
+}
+.head-item {
+    width: 30%;
+    background-color: black;
+    font-size: 25px;
+    color: white;
+}
+.body-item {
+    width: 70%;
+    background-color: white;
+}
+.card:active {
+    border: 2px solid  red;
+    font-size: 30px;
+}
+@media (max-width: 1000px) {
+    .card {
+        width: 45%;
+    }
+}
+@media (max-width: 600px) {
+    .card {
+        width: 95%;
+    }
+}
+

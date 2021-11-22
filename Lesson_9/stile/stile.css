@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital@1&display=swap');
+body {
+    width: 100%;
+    max-width: 1600px;
+}
+
+.container {
+    width: 100%;
+}
+
+.header {
+    height: 770px;
+    width: 100%;
+    background:url(../img/Home\ Background@1X.png) ;
+}
+
+.services {
+    width: 100%;
+    margin-left: 237px ;
+    margin-right: 238px;
+    margin-top: 99px;
+    margin-bottom: 99px;
+}
+.footer {
+    width: 100%;
+    background-color: red;
+}
+.services-inner {
+    width: 1125px;
+}
+.header-inner {
+    width: 1140px;
+}
+.footer-inner {
+    width: 1140px;
+    padding: 100px 0px;
+    
+}
+.navigation {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo {
+    width: 100%;
+    color: white;
+}
+.nav {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+.nav-item {
+    font-size: 14px;
+    color: white;
+}
+.captions {
+    width: 561px;
+    margin-left: 508px;
+    margin-right: 511px;
+    margin-top: 323px;
+    margin-bottom: 278px;
+    
+}
+h1 {
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+h2 {
+    text-align: center;
+    color: white;
+}
+h3 {
+    text-align: center; 
+    color: white;
+}
+h4 {
+    text-align: center; 
+    color: white;
+}
+.black {
+    color: black;
+}
+.getstarted {
+    margin-left: 190px;
+    width: 33%;
+    height: 70px;
+    border: 2px solid white;
+}
+.getstarted:hover {
+    margin-left: 187px;
+    border: 5px solid red;
+}
+.Service-item {
+    width: 345px;
+}
+.line {
+    margin-left: 538px;
+}
+
+.img {
+    margin-left: 130px;
+}
+.services-logos {
+    width: 1125px;
+    display: flex;
+    justify-content: space-between;
+}
+.footer-social {
+    margin-left: 708px;
+    padding-bottom: 60px;
+    width: 185px;
+    display: flex;
+    justify-content: space-between;
+}
+.footer-text {
+    margin-left: 455px;
+    text-align: center;
+}
+

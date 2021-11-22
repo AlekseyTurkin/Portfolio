@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital@1&display=swap');
+body {
+    display: flex;
+}
+.container {
+    width: 100%;
+    background-color: white;
+    text-align: center;
+}
+.Avtoria {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 50px;
+}
+.Car {
+    width: 90%;
+    border-radius: 5%;
+    border: 1px solid black;
+    margin-left: 30px;
+    margin-top: 10px;
+}
+.cards {
+    width: 100%;
+    margin-top: 30px;
+}
+.btn {
+    width: 60%;
+}
+.card {
+    margin-top: 10px;
+}
+.shop {
+    display: flex;
+    justify-content:space-evenly;
+}
+.catalog {
+    display: block;
+    border: 1px solid grey;
+    border-radius: 5px;
+}
+.dropend {
+    width: 95%;
+    margin-top: 10px;
+}
+.ad {
+    width: 95%;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin-top: 10px;
+}
