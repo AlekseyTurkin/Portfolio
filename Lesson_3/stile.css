@@ -1,0 +1,37 @@
+table {
+    margin-top: 30px;
+    border: 3px solid red;
+    border-radius: 3px;
+    width: 80%;
+}
+td {
+    border: 1px solid black;
+    color: red;
+    ;
+}
+td:hover {
+    border: 2px solid green;
+    color: white;
+    background: linear-gradient( -45deg, rgb(112, 56, 129), rgb(184, 89, 212), rgb(228, 46, 235));
+}
+body {
+    display: flex;
+}
+.left {
+    width: 10%;
+}
+.right {
+    width: 10%;
+}
+.Time {
+    background: linear-gradient( 45deg, rgb(34, 141, 57), rgb(30, 238, 110) rgb(46, 235, 204));
+}
+.Day {
+    background: linear-gradient( 45deg, rgb(34, 141, 57), rgb(30, 238, 110) rgb(46, 235, 204));
+}
+img {
+    width: 100px;
+    height: 100px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
